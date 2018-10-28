@@ -1,0 +1,62 @@
+@supports (grid-area:auto){
+
+  .site{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 500px 40px 100px;
+    grid-template-areas:
+      'nv nv nv nv nv nv nv nv'
+      '. mn mn mn mn mn mn .'
+      'ftt ftt ftt ftt ftt ftt ftt ftt'
+      'ft ft ft ft ft ft ft ft';
+    background-color: #f7f7f7;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+/*--Navbar----------------------------------------*/
+  .navbar{
+    grid-column: nv;
+    background-color: #000000f5;
+  }
+
+  .nav-box{
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #page-title{
+    flex-direction: column;
+    color: #ccc;
+    font-style: italic;
+    font-size: 12px;
+    font-family: Georgia;
+  }
+
+/*--Main----------------------------------------*/
+
+  .main{
+    grid-column: mn;
+    color: #2a2a2a;
+  }
+
+/*--Footer----------------------------------------*/
+
+  .footer-top{
+    grid-column: ftt;
+    color: #2a2a2a;
+    border-top: 1px solid #dedede;
+  }
+
+  .footer{
+    grid-column: ft;
+    color: #2a2a2a;
+    border-top: 1px solid #dedede;
+  }
+
+
+
+
+}
