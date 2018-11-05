@@ -3,7 +3,7 @@
   .site{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 500px 40px 100px;
+    grid-template-rows: 60px 500px 40px 350px;
     grid-template-areas:
       'nv nv nv nv nv nv nv nv'
       '. mn mn mn mn mn mn .'
@@ -20,6 +20,9 @@
   .navbar{
     grid-column: nv;
     background-color: #000000f5;
+    justify-content: space-around;
+    align-items: center;
+    color: #ccc;
   }
 
   .nav-box{
@@ -42,21 +45,55 @@
     color: #2a2a2a;
   }
 
+  #meals{
+    width: 80%;
+  }
+
 /*--Footer----------------------------------------*/
 
   .footer-top{
     grid-column: ftt;
     color: #2a2a2a;
     border-top: 1px solid #dedede;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto;
   }
 
   .footer{
     grid-column: ft;
     color: #2a2a2a;
     border-top: 1px solid #dedede;
+    font-family: Roboto;
+    justify-content: space-around;
   }
 
+  .footer h5{
+    font-family: Roboto-Bold;
+  }
 
+  .footer p{
+    font-size: 0.83em;
+  }
+
+  a{
+    text-decoration: none;
+    color: #2a2a2a;
+  }
+
+  a:hover{
+    color: #5a82c1;
+  }
+
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url('../css/fonts/Roboto/Roboto-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: Roboto;
+    src: url('../css/fonts/Roboto/Roboto-Regular.ttf');
+  }
 
 
 }
