@@ -1,0 +1,532 @@
+[
+  {
+    "STATENAME": "Alabama",
+    "POP_SFSP": 51622,
+    "POP_NSLP": 511653,
+    "PCT_SFSP": 10.1,
+    "CASH_2017": 8068498,
+    "CASH_ST": 156.2996009,
+    "POP_Dif": 460031,
+    "ADDED_CASH": 71902662
+  },
+  {
+    "STATENAME": "Alaska",
+    "POP_SFSP": 4959,
+    "POP_NSLP": 53578,
+    "PCT_SFSP": 9.3,
+    "CASH_2017": 1390485,
+    "CASH_ST": 280.3962492,
+    "POP_Dif": 48619,
+    "ADDED_CASH": 13632577
+  },
+  {
+    "STATENAME": "Arizona",
+    "POP_SFSP": 12301,
+    "POP_NSLP": 638369,
+    "PCT_SFSP": 1.9,
+    "CASH_2017": 2447373,
+    "CASH_ST": 198.9572392,
+    "POP_Dif": 626068,
+    "ADDED_CASH": 124560819
+  },
+  {
+    "STATENAME": "Arkansas",
+    "POP_SFSP": 23544,
+    "POP_NSLP": 314201,
+    "PCT_SFSP": 7.5,
+    "CASH_2017": 3966759,
+    "CASH_ST": 168.4827982,
+    "POP_Dif": 290657,
+    "ADDED_CASH": 48970787
+  },
+  {
+    "STATENAME": "California",
+    "POP_SFSP": 152251,
+    "POP_NSLP": 3215762,
+    "PCT_SFSP": 4.7,
+    "CASH_2017": 18926925,
+    "CASH_ST": 124.3139618,
+    "POP_Dif": 3063511,
+    "ADDED_CASH": 380837244
+  },
+  {
+    "STATENAME": "Colorado",
+    "POP_SFSP": 27258,
+    "POP_NSLP": 368664,
+    "PCT_SFSP": 7.4,
+    "CASH_2017": 4246917,
+    "CASH_ST": 155.8044244,
+    "POP_Dif": 341406,
+    "ADDED_CASH": 53192495
+  },
+  {
+    "STATENAME": "Connecticut",
+    "POP_SFSP": 32655,
+    "POP_NSLP": 283198,
+    "PCT_SFSP": 11.5,
+    "CASH_2017": 4195220,
+    "CASH_ST": 128.4709845,
+    "POP_Dif": 250543,
+    "ADDED_CASH": 32187476
+  },
+  {
+    "STATENAME": "Delaware",
+    "POP_SFSP": 15422,
+    "POP_NSLP": 98977,
+    "PCT_SFSP": 15.6,
+    "CASH_2017": 1914723,
+    "CASH_ST": 124.1552976,
+    "POP_Dif": 83555,
+    "ADDED_CASH": 10373779
+  },
+  {
+    "STATENAME": "District of Columbia",
+    "POP_SFSP": 15494,
+    "POP_NSLP": 52712,
+    "PCT_SFSP": 29.4,
+    "CASH_2017": 2060059,
+    "CASH_ST": 132.9585001,
+    "POP_Dif": 37218,
+    "ADDED_CASH": 4948510
+  },
+  {
+    "STATENAME": "Florida",
+    "POP_SFSP": 229220,
+    "POP_NSLP": 1715901,
+    "PCT_SFSP": 13.4,
+    "CASH_2017": 38280006,
+    "CASH_ST": 167.0011605,
+    "POP_Dif": 1486681,
+    "ADDED_CASH": 248277531
+  },
+  {
+    "STATENAME": "Georgia",
+    "POP_SFSP": 88446,
+    "POP_NSLP": 1211207,
+    "PCT_SFSP": 7.3,
+    "CASH_2017": 14466517,
+    "CASH_ST": 163.5632702,
+    "POP_Dif": 1122761,
+    "ADDED_CASH": 183642539
+  },
+  {
+    "STATENAME": "Hawaii",
+    "POP_SFSP": 6350,
+    "POP_NSLP": 104299,
+    "PCT_SFSP": 6.1,
+    "CASH_2017": 589030,
+    "CASH_ST": 92.76062992,
+    "POP_Dif": 97949,
+    "ADDED_CASH": 9085827
+  },
+  {
+    "STATENAME": "Idaho",
+    "POP_SFSP": 21325,
+    "POP_NSLP": 155249,
+    "PCT_SFSP": 13.7,
+    "CASH_2017": 3708178,
+    "CASH_ST": 173.8887691,
+    "POP_Dif": 133924,
+    "ADDED_CASH": 23287913
+  },
+  {
+    "STATENAME": "Illinois",
+    "POP_SFSP": 96032,
+    "POP_NSLP": 1059266,
+    "PCT_SFSP": 9.1,
+    "CASH_2017": 12356395,
+    "CASH_ST": 128.6695581,
+    "POP_Dif": 963234,
+    "ADDED_CASH": 123938889
+  },
+  {
+    "STATENAME": "Indiana",
+    "POP_SFSP": 55778,
+    "POP_NSLP": 743331,
+    "PCT_SFSP": 7.5,
+    "CASH_2017": 8299656,
+    "CASH_ST": 148.7980207,
+    "POP_Dif": 687553,
+    "ADDED_CASH": 102306498
+  },
+  {
+    "STATENAME": "Iowa",
+    "POP_SFSP": 18475,
+    "POP_NSLP": 377927,
+    "PCT_SFSP": 4.9,
+    "CASH_2017": 3903512,
+    "CASH_ST": 211.2861705,
+    "POP_Dif": 359452,
+    "ADDED_CASH": 75947314
+  },
+  {
+    "STATENAME": "Kansas",
+    "POP_SFSP": 28251,
+    "POP_NSLP": 338077,
+    "PCT_SFSP": 8.4,
+    "CASH_2017": 4206621,
+    "CASH_ST": 148.9016672,
+    "POP_Dif": 309826,
+    "ADDED_CASH": 46133654
+  },
+  {
+    "STATENAME": "Kentucky",
+    "POP_SFSP": 69912,
+    "POP_NSLP": 525319,
+    "PCT_SFSP": 13.3,
+    "CASH_2017": 8314610,
+    "CASH_ST": 118.9296544,
+    "POP_Dif": 455407,
+    "ADDED_CASH": 54161363
+  },
+  {
+    "STATENAME": "Louisiana",
+    "POP_SFSP": 28429,
+    "POP_NSLP": 550544,
+    "PCT_SFSP": 5.2,
+    "CASH_2017": 7449255,
+    "CASH_ST": 262.0301453,
+    "POP_Dif": 522115,
+    "ADDED_CASH": 136809882
+  },
+  {
+    "STATENAME": "Maine",
+    "POP_SFSP": 15298,
+    "POP_NSLP": 97730,
+    "PCT_SFSP": 15.7,
+    "CASH_2017": 2224310,
+    "CASH_ST": 145.3987449,
+    "POP_Dif": 82432,
+    "ADDED_CASH": 11985572
+  },
+  {
+    "STATENAME": "Maryland",
+    "POP_SFSP": 68087,
+    "POP_NSLP": 445433,
+    "PCT_SFSP": 15.3,
+    "CASH_2017": 9247803,
+    "CASH_ST": 135.823329,
+    "POP_Dif": 377346,
+    "ADDED_CASH": 51252381
+  },
+  {
+    "STATENAME": "Massachusetts",
+    "POP_SFSP": 58161,
+    "POP_NSLP": 529822,
+    "PCT_SFSP": 11,
+    "CASH_2017": 7198196,
+    "CASH_ST": 123.7632778,
+    "POP_Dif": 471661,
+    "ADDED_CASH": 58374297
+  },
+  {
+    "STATENAME": "Michigan",
+    "POP_SFSP": 89963,
+    "POP_NSLP": 801891,
+    "PCT_SFSP": 11.2,
+    "CASH_2017": 10266958,
+    "CASH_ST": 114.1242288,
+    "POP_Dif": 711928,
+    "ADDED_CASH": 81248239
+  },
+  {
+    "STATENAME": "Minnesota",
+    "POP_SFSP": 60312,
+    "POP_NSLP": 613846,
+    "PCT_SFSP": 9.8,
+    "CASH_2017": 8777842,
+    "CASH_ST": 145.5405558,
+    "POP_Dif": 553534,
+    "ADDED_CASH": 80561625
+  },
+  {
+    "STATENAME": "Mississippi",
+    "POP_SFSP": 38575,
+    "POP_NSLP": 371355,
+    "PCT_SFSP": 10.4,
+    "CASH_2017": 6661020,
+    "CASH_ST": 172.6771225,
+    "POP_Dif": 332780,
+    "ADDED_CASH": 57463498
+  },
+  {
+    "STATENAME": "Missouri",
+    "POP_SFSP": 44018,
+    "POP_NSLP": 586909,
+    "PCT_SFSP": 7.5,
+    "CASH_2017": 13244597,
+    "CASH_ST": 300.8904766,
+    "POP_Dif": 542891,
+    "ADDED_CASH": 163350848
+  },
+  {
+    "STATENAME": "Montana",
+    "POP_SFSP": 9323,
+    "POP_NSLP": 82175,
+    "PCT_SFSP": 11.3,
+    "CASH_2017": 1866961,
+    "CASH_ST": 200.2532447,
+    "POP_Dif": 72852,
+    "ADDED_CASH": 14588849
+  },
+  {
+    "STATENAME": "Nebraska",
+    "POP_SFSP": 10168,
+    "POP_NSLP": 242852,
+    "PCT_SFSP": 4.2,
+    "CASH_2017": 2594000,
+    "CASH_ST": 255.1140834,
+    "POP_Dif": 232684,
+    "ADDED_CASH": 59360897
+  },
+  {
+    "STATENAME": "Nevada",
+    "POP_SFSP": 8309,
+    "POP_NSLP": 224528,
+    "PCT_SFSP": 3.7,
+    "CASH_2017": 1641538,
+    "CASH_ST": 197.5614394,
+    "POP_Dif": 216219,
+    "ADDED_CASH": 42716605
+  },
+  {
+    "STATENAME": "New Hampshire",
+    "POP_SFSP": 13567,
+    "POP_NSLP": 83276,
+    "PCT_SFSP": 16.3,
+    "CASH_2017": 918082,
+    "CASH_ST": 67.67022923,
+    "POP_Dif": 69709,
+    "ADDED_CASH": 4717227
+  },
+  {
+    "STATENAME": "New Jersey",
+    "POP_SFSP": 62069,
+    "POP_NSLP": 694111,
+    "PCT_SFSP": 8.9,
+    "CASH_2017": 11099264,
+    "CASH_ST": 178.8213762,
+    "POP_Dif": 632042,
+    "ADDED_CASH": 113022533
+  },
+  {
+    "STATENAME": "New Mexico",
+    "POP_SFSP": 25009,
+    "POP_NSLP": 217324,
+    "PCT_SFSP": 11.5,
+    "CASH_2017": 5167512,
+    "CASH_ST": 206.6260946,
+    "POP_Dif": 192315,
+    "ADDED_CASH": 39737220
+  },
+  {
+    "STATENAME": "New York",
+    "POP_SFSP": 416749,
+    "POP_NSLP": 1663296,
+    "PCT_SFSP": 25.1,
+    "CASH_2017": 55044362,
+    "CASH_ST": 132.0803697,
+    "POP_Dif": 1246547,
+    "ADDED_CASH": 164644380
+  },
+  {
+    "STATENAME": "North Carolina",
+    "POP_SFSP": 87982,
+    "POP_NSLP": 866759,
+    "PCT_SFSP": 10.2,
+    "CASH_2017": 12458815,
+    "CASH_ST": 141.6064081,
+    "POP_Dif": 778777,
+    "ADDED_CASH": 110279791
+  },
+  {
+    "STATENAME": "North Dakota",
+    "POP_SFSP": 3579,
+    "POP_NSLP": 91950,
+    "PCT_SFSP": 3.9,
+    "CASH_2017": 776341,
+    "CASH_ST": 216.9156189,
+    "POP_Dif": 88371,
+    "ADDED_CASH": 19168976
+  },
+  {
+    "STATENAME": "Ohio",
+    "POP_SFSP": 64698,
+    "POP_NSLP": 994189,
+    "PCT_SFSP": 6.5,
+    "CASH_2017": 11601866,
+    "CASH_ST": 179.3234103,
+    "POP_Dif": 929491,
+    "ADDED_CASH": 166679457
+  },
+  {
+    "STATENAME": "Oklahoma",
+    "POP_SFSP": 13222,
+    "POP_NSLP": 442532,
+    "PCT_SFSP": 3,
+    "CASH_2017": 4379434,
+    "CASH_ST": 331.2232643,
+    "POP_Dif": 429310,
+    "ADDED_CASH": 142197560
+  },
+  {
+    "STATENAME": "Oregon",
+    "POP_SFSP": 37979,
+    "POP_NSLP": 297120,
+    "PCT_SFSP": 12.8,
+    "CASH_2017": 5033874,
+    "CASH_ST": 132.5436162,
+    "POP_Dif": 259141,
+    "ADDED_CASH": 34347483
+  },
+  {
+    "STATENAME": "Pennsylvania",
+    "POP_SFSP": 81220,
+    "POP_NSLP": 1021156,
+    "PCT_SFSP": 8,
+    "CASH_2017": 13110933,
+    "CASH_ST": 161.4249323,
+    "POP_Dif": 939936,
+    "ADDED_CASH": 151729173
+  },
+  {
+    "STATENAME": "Rhode Island",
+    "POP_SFSP": 10885,
+    "POP_NSLP": 77399,
+    "PCT_SFSP": 14.1,
+    "CASH_2017": 1367868,
+    "CASH_ST": 125.6654111,
+    "POP_Dif": 66514,
+    "ADDED_CASH": 8358451
+  },
+  {
+    "STATENAME": "South Carolina",
+    "POP_SFSP": 35127,
+    "POP_NSLP": 472538,
+    "PCT_SFSP": 7.4,
+    "CASH_2017": 9630527,
+    "CASH_ST": 274.1630939,
+    "POP_Dif": 437411,
+    "ADDED_CASH": 119922001
+  },
+  {
+    "STATENAME": "South Dakota",
+    "POP_SFSP": 5950,
+    "POP_NSLP": 107123,
+    "PCT_SFSP": 5.6,
+    "CASH_2017": 1486110,
+    "CASH_ST": 249.7663866,
+    "POP_Dif": 101173,
+    "ADDED_CASH": 25269579
+  },
+  {
+    "STATENAME": "Tennessee",
+    "POP_SFSP": 68964,
+    "POP_NSLP": 656161,
+    "PCT_SFSP": 10.5,
+    "CASH_2017": 9227008,
+    "CASH_ST": 133.7945595,
+    "POP_Dif": 587197,
+    "ADDED_CASH": 78563792
+  },
+  {
+    "STATENAME": "Texas",
+    "POP_SFSP": 113605,
+    "POP_NSLP": 3348977,
+    "PCT_SFSP": 3.4,
+    "CASH_2017": 33528360,
+    "CASH_ST": 295.1310242,
+    "POP_Dif": 3235372,
+    "ADDED_CASH": 954858754
+  },
+  {
+    "STATENAME": "Utah",
+    "POP_SFSP": 7514,
+    "POP_NSLP": 335493,
+    "PCT_SFSP": 2.2,
+    "CASH_2017": 1065877,
+    "CASH_ST": 141.8521427,
+    "POP_Dif": 327979,
+    "ADDED_CASH": 46524454
+  },
+  {
+    "STATENAME": "Vermont",
+    "POP_SFSP": 9328,
+    "POP_NSLP": 47101,
+    "PCT_SFSP": 19.8,
+    "CASH_2017": 1203952,
+    "CASH_ST": 129.0686106,
+    "POP_Dif": 37773,
+    "ADDED_CASH": 4875252
+  },
+  {
+    "STATENAME": "Virginia",
+    "POP_SFSP": 73284,
+    "POP_NSLP": 694964,
+    "PCT_SFSP": 10.5,
+    "CASH_2017": 9046588,
+    "CASH_ST": 123.4456089,
+    "POP_Dif": 621680,
+    "ADDED_CASH": 76743716
+  },
+  {
+    "STATENAME": "Washington",
+    "POP_SFSP": 42470,
+    "POP_NSLP": 523209,
+    "PCT_SFSP": 8.1,
+    "CASH_2017": 5072873,
+    "CASH_ST": 119.4460325,
+    "POP_Dif": 480739,
+    "ADDED_CASH": 57422399
+  },
+  {
+    "STATENAME": "West Virginia",
+    "POP_SFSP": 8519,
+    "POP_NSLP": 191544,
+    "PCT_SFSP": 4.4,
+    "CASH_2017": 1609161,
+    "CASH_ST": 188.8908323,
+    "POP_Dif": 183025,
+    "ADDED_CASH": 34571709
+  },
+  {
+    "STATENAME": "Wisconsin",
+    "POP_SFSP": 54672,
+    "POP_NSLP": 510633,
+    "PCT_SFSP": 10.7,
+    "CASH_2017": 8077894,
+    "CASH_ST": 147.7519388,
+    "POP_Dif": 455961,
+    "ADDED_CASH": 67369120
+  },
+  {
+    "STATENAME": "Wyoming",
+    "POP_SFSP": 4620,
+    "POP_NSLP": 49905,
+    "PCT_SFSP": 9.3,
+    "CASH_2017": 821211,
+    "CASH_ST": 177.7512987,
+    "POP_Dif": 45285,
+    "ADDED_CASH": 8049395
+  },
+  {
+    "STATENAME": "Puerto Rico",
+    "POP_SFSP": 20632,
+    "POP_NSLP": 244863,
+    "PCT_SFSP": 8.4,
+    "CASH_2017": 9081185,
+    "CASH_ST": 440.1504944,
+    "POP_Dif": 224231,
+    "ADDED_CASH": 98695386
+  },
+  {
+    "STATENAME": "Total",
+    "POP_SFSP": 2641582,
+    "POP_NSLP": 29946399.38,
+    "PCT_SFSP": "",
+    "CASH_2017": 423764777,
+    "CASH_ST": 160.42083,
+    "POP_Dif": 27304817,
+    "ADDED_CASH": 4380261467
+  }
+]

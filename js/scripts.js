@@ -1,42 +1,72 @@
-$(document).ready(function(){
+$(function(){
   console.log('scripts loaded');
 
-  var url = '/js/meals.json';
-  var meals = '';
+  var url = './js/cash_payments.json';
+  var cash = [];
+  var xCat = [];
+  var cashNow = [];
+  var cashPos = [];
+
+  $.ajax({
+    type: 'GET',
+    dataType: 'json',
+    data: cash,
+    url: url,
+    async: true,
+    success: function(cash){
+      console.log(cash);
+
+      for (i=0; i < cash.length; i++){
+        if(cash[i].STATENAME != 'Total'){
+        xCat.push(cash[i].STATENAME);
+        cashNow.push(cash[i].CASH_2017);
+        cashPos.push(cash[i].ADDED_CASH);
+      }
+      }//for loop
+
+      buildChart();
+
+    } //success
+
+  });//ajax
+
+function buildChart(){
+  Highcharts.chart('meals', {
+    chart: {
+        type: 'bar'
+    },
+    title: {
+        text: 'Stacked bar chart'
+    },
+    xAxis: {
+        categories: xCat
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Total Cash Payments in 2017'
+        }
+    },
+    legend: {
+        reversed: true
+    },
+    plotOptions: {
+        series: {
+            stacking: 'normal'
+        }
+    },
+    series: [{
+        name: 'Possible Dollars',
+        data: cashPos
+    },
+    {
+        name: 'Dollars 2017',
+        data: cashNow
+    }]
+  });
+  } //close buildChart
 
 
-    $.ajax({
-      type: 'GET',
-      dataType: 'json',
-      url: url,
-      data: meals,
-      async: true,
-      success: function(meals){
-        console.log(meals);
-
-        var chart = new Taucharts.Chart({
-                    guide: {
-                      x: {label:'Year'},  // custom label for X axis
-                      y: {label:'Percentage of Students'},    // custom label for Y axis
-                      padding: {b:40,l:40,t:10,r:10}   // chart paddings
-                    },
-                    data: meals,
-                    type: 'line',
-                    x: 'Year',
-                    y: 'Percentage Eligible Summer Participation',
-                    plugins: [
-                       Taucharts.api.plugins.get('tooltip')({
-                         fields: ['name', 'Infant Mortality Rate', 'Life Expectancy', 'Per Capita GDP', 'Obesity Rate', 'Unemployment Rate']
-                       }),
-                       Taucharts.api.plugins.get('legend')()
-                    ]
-                }); // end Taucharts
-
-                chart.renderTo('#meals');
-
-          }//success
-
-        });//ajax
 
 
 
@@ -45,4 +75,7 @@ $(document).ready(function(){
 
 
 
-}); //END DOC READY
+
+
+
+}); //END FUNC READY
