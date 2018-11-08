@@ -3,47 +3,125 @@
   .site{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 1000px 40px 350px;
+    grid-template-rows: 60px 1500px 40px 350px;
     grid-template-areas:
       'nv nv nv nv nv nv nv nv'
       '. mn mn mn mn mn mn .'
       'ftt ftt ftt ftt ftt ftt ftt ftt'
       'ft ft ft ft ft ft ft ft';
-    background-color: #f7f7f7;
+    background-color: #fff;
   }
 
   .flex{
     display: flex;
   }
 
+  body{
+    margin: 0;
+  }
+
 /*--Navbar----------------------------------------*/
   .navbar{
     grid-column: nv;
     background-color: #000000f5;
-    justify-content: space-around;
     align-items: center;
     color: #ccc;
+    justify-content: space-between;
+
   }
 
+  .navbar img{
+    width: 181px;
+  }
+
+
+  .nav-box{
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+    height: 36px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #f7f7f7;
+    margin-right: 10px;
+
+  }
+
+  .nav-box:hover{
+    background-color: #000000f5;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .nav-box img{
+    width:20px;
+  }
+  .navbar h4{
+    font-family: Roboto;
+    font-size: 14px;
+    margin-right: 5px;
+  }
   .nav-box{
     align-items: center;
     justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #page-title{
     flex-direction: column;
     color: #ccc;
     font-style: italic;
-    font-size: 12px;
+    font-size: 8px;
     font-family: Georgia;
+    justify-content: center;
+    flex-basis: 19%;
   }
 
+  #page-title h2{
+    margin: 0;
+    font-weight:lighter;
+    margin-left: 13px;
+  }
+
+  #sign-in{
+
+  }
+
+  #search{
+    margin-left: 10px;
+
+  }
 /*--Main----------------------------------------*/
 
   .main{
     grid-column: mn;
     color: #2a2a2a;
     flex-direction: column;
+  }
+
+  #main-title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #main-title h1{
+    font-family: Bodoni;
+    font-size: 50px;
+    color: #2a2a2a;
+  }
+
+  #main-title h3{
+    font-family: Roboto-Thin;
+  }
+
+  #main-title h4{
+    font-family: Roboto;
+  }
+
+  #main-title a{
+    color: #1955a5;
   }
 
   #meals{
@@ -56,6 +134,9 @@
     height: 500px;
   }
 
+  .highcharts-background rect{
+      fill: #f7f7f7;
+  }
 /*--Footer----------------------------------------*/
 
   .footer-top{
@@ -102,5 +183,14 @@
     src: url('../css/fonts/Roboto/Roboto-Regular.ttf');
   }
 
+  @font-face {
+    font-family: Roboto-Thin;
+    src: url('../css/fonts/Roboto/Roboto-Thin.ttf');
+  }
+
+  @font-face {
+    font-family: Bodoni;
+    src: url('../css/fonts/bodoni/BodoniFLF-Bold.ttf');
+  }
 
 }
