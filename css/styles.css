@@ -3,7 +3,7 @@
   .site{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 1500px 40px 350px;
+    grid-template-rows: 60px 5000px 40px 350px;
     grid-template-areas:
       'nv nv nv nv nv nv nv nv'
       '. mn mn mn mn mn mn .'
@@ -110,17 +110,34 @@
     font-family: Bodoni;
     font-size: 50px;
     color: #2a2a2a;
+    margin-top: 0;
   }
 
   #main-title h3{
     font-family: Roboto-Thin;
+    line-height: 1.5em;
+
   }
 
   #main-title h4{
     font-family: Roboto;
+    margin-bottom: 10px;
   }
 
-  #main-title a{
+#main-title p, .caption p{
+  font-family: Roboto-Thin;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+  .source{
+    font-family: Roboto;
+    color: #aaa;
+    font-size: 14px;
+  }
+
+
+  #main-title a, .source a{
     color: #1955a5;
   }
 
@@ -134,8 +151,22 @@
     height: 500px;
   }
 
-  .highcharts-background rect{
-      fill: #f7f7f7;
+  .body-copy{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #2a2a2a;
+  }
+
+  #table{
+    flex-direction:column;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  thead{
+    align-content: center;
   }
 /*--Footer----------------------------------------*/
 

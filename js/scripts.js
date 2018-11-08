@@ -43,7 +43,7 @@ Highcharts.chart('meals', {
     },
 
     subtitle: {
-        text: 'Source: USDA'
+        text: 'Source: U.S. Dept. of Agriculture Food and Nurition Service'
     },
 
     xAxis: {
@@ -95,10 +95,10 @@ Highcharts.chart('meals', {
     },
 
     series: [{
-        name: 'SFSP',
+        name: 'Summer Food Serive Program',
         data: summer
     }, {
-        name: 'NSLP',
+        name: 'National School Lunch Program',
         data: school
     }]
 });
@@ -144,13 +144,17 @@ function buildChart(){
     title: {
         text: 'The Summer Meals Dollars States Are Missing Out On'
     },
+    subtitle: {
+        text: 'Source: U.S. Dept. of Agriculture Food and Nurition Service'
+    },
+
     xAxis: {
         categories: xCat
     },
     yAxis: {
         min: 0,
         title: {
-            text: 'Total Cash Payments in 2017'
+            text: 'Federal Cash Payments to States'
         }
     },
     legend: {
@@ -162,11 +166,11 @@ function buildChart(){
         }
     },
     series: [{
-        name: 'Possible Dollars',
+        name: 'Possible Additional Cash Payments',
         data: cashPos
     },
     {
-        name: 'Dollars 2017',
+        name: 'Total Cash Payments 2017',
         data: cashNow
     }]
   });
